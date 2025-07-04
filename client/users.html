@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome, <span id="fullName"></span></h1>
+      <nav>
+        <a href="departments.html">Departments</a>
+        <a href="employees.html">Employees</a>
+        <a href="shifts.html">Shifts</a>
+        <a href="users.html">Users</a>
+        <a href="#" onclick="logout()">Logout</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Users</h2>
+      <table id="usersTable">
+        <thead>
+          <tr>
+            <th>Username</th>
+            <th>Full Name</th>
+            <th>Max Actions Allowed</th>
+            <th>Actions Left Today</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- User rows rendered here -->
+        </tbody>
+      </table>
+    </main>
+    <script src="js/utils.js"></script>
+    <script src="js/users.js"></script>
+  </body>
+</html>

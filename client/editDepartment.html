@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Department</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome, <span id="fullName"></span></h1>
+      <nav>
+        <a href="employees.html">Employees</a>
+        <a href="departments.html">Departments</a>
+        <a href="shifts.html">Shifts</a>
+        <a href="users.html">Users</a>
+        <a href="#" onclick="logout()">Logout</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Edit Department</h2>
+      <div class="edit-employee-container">
+        <form id="editDepartmentForm" class="form-card">
+          <input type="hidden" id="departmentId" />
+
+          <label for="deptName">Department Name:</label>
+          <input type="text" id="deptName" required />
+
+          <label for="managerSelect">Manager:</label>
+          <select id="managerSelect"></select>
+
+          <div class="button-row">
+            <button type="submit" id="saveBtn">Update</button>
+            <button type="button" id="deleteBtn">Delete</button>
+          </div>
+        </form>
+
+        <div class="shift-section form-card">
+          <h3>Add Employee to Department</h3>
+          <label for="employeeSelect">Select Employee:</label>
+          <select id="employeeSelect"></select>
+          <button type="button" id="assignEmployeeBtn">Add</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/utils.js"></script>
+    <script src="js/editDepartment.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Shift</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome, <span id="fullName"></span></h1>
+      <nav>
+        <a href="departments.html">Departments</a>
+        <a href="employees.html">Employees</a>
+        <a href="shifts.html">Shifts</a>
+        <a href="users.html">Users</a>
+        <a href="#" onclick="logout()">Logout</a>
+      </nav>
+    </header>
+    <main>
+      <form id="newShiftForm" class="form-card">
+        <h2>Create New Shift</h2>
+        <label for="date">Date:</label>
+        <input type="date" id="date" required />
+
+        <label for="startingHour">Start Hour:</label>
+        <input type="number" id="startingHour" min="0" max="23" required />
+
+        <label for="endingHour">End Hour:</label>
+        <input type="number" id="endingHour" min="0" max="23" required />
+
+        <div class="button-row">
+          <button type="submit">Create Shift</button>
+          <button type="button" id="cancelBtn">Cancel</button>
+        </div>
+      </form>
+    </main>
+
+    <script src="js/utils.js"></script>
+    <script src="js/newShift.js"></script>
+  </body>
+</html>

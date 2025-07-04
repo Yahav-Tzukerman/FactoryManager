@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employees</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome, <span id="fullName"></span></h1>
+      <nav>
+        <a href="departments.html">Departments</a>
+        <a href="shifts.html">Shifts</a>
+        <a href="users.html">Users</a>
+        <a href="#" onclick="logout()">Logout</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Employees</h2>
+
+      <button onclick="window.location.href='newEmployee.html'">
+        New Employee
+      </button>
+
+      <div class="filter-container">
+        <label for="departmentFilter">Filter by Department:</label>
+        <select id="departmentFilter">
+          <option value="">All Departments</option>
+        </select>
+      </div>
+
+      <table id="employeesTable">
+        <thead>
+          <tr>
+            <th>Full Name</th>
+            <th>Department</th>
+            <th>Shifts</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Employee rows go here -->
+        </tbody>
+      </table>
+    </main>
+
+    <script src="js/utils.js"></script>
+    <script src="js/employees.js"></script>
+  </body>
+</html>

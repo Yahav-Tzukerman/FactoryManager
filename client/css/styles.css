@@ -1,0 +1,280 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    color: #222;
+}
+
+
+#departmentFilter {
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #222;
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0.5rem 0 1rem 0;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+table thead {
+    background-color: #eef3f7;
+}
+
+table th,
+table td {
+    padding: 0.8rem;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+table a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+.login-title {
+    text-align: center;
+    margin-top: 3rem;
+    color: #222;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.form-card {
+    background: #fff;
+    max-width: 450px;
+    margin: 2.5rem auto 0 auto;
+    padding: 2.5rem 2rem 2rem 2rem;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px 0 rgba(56, 87, 153, 0.07);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    min-width: 300px;
+    flex: 1 1 340px;
+}
+
+.form-card h2,
+.form-card h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-card label {
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-card input,
+.form-card select {
+    padding: 0.6rem;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.form-card button {
+    width: 100%;
+    margin: 1rem 0 0 0;
+}
+
+.form-card .button-row {
+    display: flex;
+    gap: 0.8rem;
+    justify-content: space-between;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 1.5rem;
+}
+
+.filter-container label {
+    font-size: 1.1rem;
+    margin-top: 0.3rem;
+    margin-right: 0.5rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.filter-container select {
+    padding: 0.4rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    width: 200px;
+    /* Adjust width as needed */
+}
+
+.edit-employee-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 2.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.shift-section {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px 0 rgba(56, 87, 153, 0.07);
+    padding: 2.5rem 2rem 2rem 2rem;
+    min-width: 340px;
+    flex: 1 1 420px;
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 2.5rem;
+}
+
+.shift-section h3 {
+    text-align: center;
+    margin: 0.7rem 0 0.7rem 0;
+}
+
+
+.error {
+    color: #c00;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .edit-employee-container {
+        flex-direction: column;
+        gap: 1.2rem;
+        align-items: stretch;
+    }
+
+    .shift-section,
+    .form-card {
+        max-width: 100%;
+        min-width: 0;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table td {
+        padding: 1rem;
+        border: none;
+        border-bottom: 1px solid #ccc;
+    }
+
+    table td:before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .form-card {
+        padding: 1.3rem 0.5rem;
+        min-width: unset;
+    }
+}

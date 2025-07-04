@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Department</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome, <span id="fullName"></span></h1>
+      <nav>
+        <a href="employees.html">Employees</a>
+        <a href="departments.html">Departments</a>
+        <a href="shifts.html">Shifts</a>
+        <a href="users.html">Users</a>
+        <a href="#" onclick="logout()">Logout</a>
+      </nav>
+    </header>
+
+    <main>
+      <form id="newDepartmentForm" class="form-card">
+        <h2>Add New Department</h2>
+        <label for="deptName">Department Name:</label>
+        <input type="text" id="deptName" required />
+
+        <label for="managerSelect">Manager:</label>
+        <select id="managerSelect"></select>
+
+        <div class="button-row">
+          <button type="submit">Save</button>
+          <button type="button" id="cancelBtn">Cancel</button>
+        </div>
+      </form>
+    </main>
+
+    <script src="js/utils.js"></script>
+    <script src="js/newDepartment.js"></script>
+  </body>
+</html>

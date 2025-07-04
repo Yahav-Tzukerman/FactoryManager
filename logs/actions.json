@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "timestamp": "2025-07-04T15:20:11.349Z",
+      "userId": "685ad020bafbc4c083ad296e",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 10,
+      "numOfActions": 10,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T15:20:11.402Z",
+      "userId": "685ad020bafbc4c083ad296e",
+      "action": "/employees",
+      "method": "GET",
+      "success": true,
+      "maxActions": 10,
+      "numOfActions": 9,
+      "date": "04/07/2025"
+    }
+  ]
+}

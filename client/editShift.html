@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Shift</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome, <span id="fullName"></span></h1>
+      <nav>
+        <a href="employees.html">Employees</a>
+        <a href="departments.html">Departments</a>
+        <a href="shifts.html">Shifts</a>
+        <a href="users.html">Users</a>
+        <a href="#" onclick="logout()">Logout</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Edit Shift</h2>
+      <div class="edit-employee-container">
+        <form id="editShiftForm" class="form-card">
+          <input type="hidden" id="shiftId" />
+
+          <label for="shiftDate">Date:</label>
+          <input type="date" id="shiftDate" required />
+
+          <label for="startingHour">Starting Hour:</label>
+          <input type="number" id="startingHour" min="0" max="23" required />
+
+          <label for="endingHour">Ending Hour:</label>
+          <input type="number" id="endingHour" min="1" max="23" required />
+
+          <div class="button-row">
+            <button type="submit" id="saveBtn">Update</button>
+            <button type="button" onclick="window.location.href='shifts.html'">
+              Cancel
+            </button>
+          </div>
+        </form>
+
+        <div class="shift-section form-card">
+          <h3>Allocate Employee to Shift</h3>
+          <label for="employeeSelect">Select Employee:</label>
+          <select id="employeeSelect"></select>
+          <button type="button" id="assignEmployeeBtn">Add</button>
+          <h3>Assigned Employees</h3>
+          <table id="assignedEmployeesTable">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Remove</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/utils.js"></script>
+    <script src="js/editShift.js"></script>
+  </body>
+</html>
