@@ -4,7 +4,7 @@
 
 🎉 Explore the live application 👉 [FactoryManager](https://factorymanager-6t60.onrender.com/login.html)
 
-Swagger Docs: [View Swagger](https://factorymanager-6t60.onrender.com/api-docs)
+📑 Swagger Docs: [View Swagger](https://factorymanager-6t60.onrender.com/api-docs)
 
 This project is a fullstack Node.js application powered by Express for server-side logic and MongoDB for persistent database storage. It demonstrates robust backend development, dynamic environment handling, modern security practices, and a clean, modular structure.
 
@@ -15,8 +15,8 @@ This project is a fullstack Node.js application powered by Express for server-si
 - [🚀 Features](#-features)
 - [⚙️ Installation](#️-installation)
 - [▶️ Usage](#️-usage)
-- [🌱 Environment Configuration](#-environment-configurations)
-- [📖 API Documentation (Swagger)](#-api)
+- [🌱 Environment Configuration](#-environment-configuration)
+- [📖 API Documentation (Swagger)](#-api-documentation-swagger)
 - [👤 Test Users](#-test-users)
 - [🔍 Key Features](#-key-features)
 - [🤝 Contributing](#-contributing)
@@ -24,21 +24,21 @@ This project is a fullstack Node.js application powered by Express for server-si
 
 ## 🚀 Features
 
-Fullstack Node.js Express server with MongoDB database
+- Fullstack Node.js Express server with MongoDB database
 
-Clean separation between API (backend) and front-end (HTML, JS, CSS in /client)
+- Clean separation between API (backend) and front-end (HTML, JS, CSS in /client)
 
-Dynamic Environment: Easily switch between development (localhost) and production (onrender.com)
+- Dynamic Environment: Easily switch between development (localhost) and production (onrender.com)
 
-JWT-based authentication and action tracking per user
+- JWT-based authentication and action tracking per user
 
-REST API for Users, Employees, Departments, and Shifts
+- REST API for Users, Employees, Departments, and Shifts
 
-Swagger documentation out-of-the-box (/api-docs)
+- Swagger documentation out-of-the-box (/api-docs)
 
-Robust error handling and logging
+- Robust error handling and logging
 
-MIT license – open source!
+- MIT license – open source!
 
 ## ⚙️ Installation
 
@@ -99,7 +99,8 @@ Update your .env file or environment variables to toggle between environments.
 
 Swagger UI is integrated and available at:
 
-/api-docs (Production Swagger)
+- [Production Swagger](https://factorymanager-6t60.onrender.com/api-docs)
+- [Local Swagger](http://localhost:3000/api-docs)
 
 Explore and test all available API endpoints directly from your browser!
 
@@ -112,7 +113,7 @@ Users can be bootstrapped via the /users endpoint.
 For demo/testing, use any user registered in your MongoDB database.
 
 Users are bootstrapped from [jsonplaceholder](https://jsonplaceholder.typicode.com/users), use any user with username and email to login.
-Each user have 50 actions per day.
+Each user has 50 actions per day.
 
 ## 🔍 Key Features
 
