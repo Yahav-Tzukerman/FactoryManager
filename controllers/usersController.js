@@ -55,10 +55,10 @@ router.post(
  *             properties:
  *               username:
  *                 type: string
- *                 example: Starshaf
+ *                 example: username
  *               password:
  *                 type: string
- *                 example: Yahav93!
+ *                 example: passeword
  *     responses:
  *       201:
  *         description: Login successful
