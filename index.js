@@ -30,16 +30,7 @@ setupSwagger(app);
 app.use(cors());
 app.use(express.json());
 app.use(morgan("combined", { stream: accessLogStream }));
-app.use(
-  helmet({
-    contentSecurityPolicy: {
-      directives: {
-        defaultSrc: ["'self'"],
-        connectSrc: ["'self'", "https://jsonplaceholder.typicode.com"],
-      },
-    },
-  })
-);
+app.use(helmet());
 app.use(compression());
 
 // Public routes
@@ -61,10 +52,13 @@ app.use((req, res, next) => {
 app.use(errorHandler);
 
 app.listen(PORT, () => {
-  console.log(`app is listening at http://localhost:${PORT}`);
   if (config.env === "development") {
+    console.log(`app is listening at http://localhost:${PORT}`);
     console.log("Running in DEVELOPMENT mode");
   } else {
+    console.log(
+      `app is listening at https://factorymanager-6t60.onrender.com:${PORT}`
+    );
     console.log("Running in PRODUCTION mode");
   }
 });
