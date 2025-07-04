@@ -57,7 +57,7 @@ async function bootstrapUsers() {
           username: cleanedUsername,
           password: user.email,
           fullName: cleanedFullName,
-          maxActionsPerDay: 10,
+          maxActionsPerDay: 25,
         });
         console.log(`✅ Registered user: ${user.username} _id: ${appUser._id}`);
       } else {

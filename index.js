@@ -36,6 +36,8 @@ app.use(
       directives: {
         defaultSrc: ["'self'"],
         connectSrc: ["'self'", "https://jsonplaceholder.typicode.com"],
+        scriptSrc: ["'self'", "'unsafe-inline'"],
+        scriptSrcAttr: ["'self'", "'unsafe-inline'"],
       },
     },
   })

@@ -139,6 +139,386 @@
       "maxActions": 10,
       "numOfActions": 0,
       "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:04:23.708Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 872,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:04:23.835Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/employees",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 871,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:08:21.234Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 870,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:08:28.981Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 869,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:08:29.174Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/employees",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 868,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:08:57.312Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 867,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:08:57.457Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/employees",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 866,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:09:31.375Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 865,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:10:47.573Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 864,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:10:47.804Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/employees",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 863,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:11:54.283Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 862,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:11:59.019Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 861,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:12:21.932Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 860,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:12:22.120Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/employees",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 859,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:12:34.041Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 858,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:12:34.215Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/employees",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 857,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:14:22.509Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 856,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:14:22.746Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/employees",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 855,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:15:42.175Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 854,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:15:47.717Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 853,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:16:06.860Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 852,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:16:07.078Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/employees",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 851,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:16:09.914Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 850,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:16:12.315Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 848,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:16:12.558Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/employees",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 847,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:16:13.810Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/employees",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 846,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:16:23.826Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 844,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:16:23.987Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/employees",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 843,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:24:08.857Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 842,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:24:09.056Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/employees/680aaf1748811b83655b6219",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 841,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:24:09.088Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/shifts",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 840,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:24:25.644Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 839,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:24:25.879Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/employees/680aaf1748811b83655b6219",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 838,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:24:25.924Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/shifts",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 837,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:24:28.684Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/employees/680aaf1748811b83655b6219/assign-shift",
+      "method": "PATCH",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 836,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:24:30.774Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 835,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:24:31.019Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/employees/680aaf1748811b83655b6219",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 834,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T18:24:31.046Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/shifts",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 833,
+      "date": "04/07/2025"
     }
   ]
 }

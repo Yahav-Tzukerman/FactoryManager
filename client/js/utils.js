@@ -1,8 +1,11 @@
 // ----- Configurable Environment -----
+const isLocalhost = window.location.hostname === "localhost";
+
+// -- Production API Configuration --
 const API_CONFIG = {
-  protocol: "https", // or "https"
-  host: "factorymanager-6t60.onrender.com",
-  basePath: "", // e.g. "/api" if all routes are prefixed
+  protocol: isLocalhost ? "http" : "https",
+  host: isLocalhost ? "localhost:3000" : "factorymanager-6t60.onrender.com",
+  basePath: "",
 };
 
 function getApiBaseUrl() {
@@ -79,6 +82,16 @@ function logout() {
   localStorage.removeItem("user");
   window.location.href = "login.html";
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const logoutBtn = document.getElementById("logoutBtn");
+  if (logoutBtn) {
+    logoutBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+      logout();
+    });
+  }
+});
 
 function formatShiftsDates(shifts) {
   return shifts.map((shift) => ({
