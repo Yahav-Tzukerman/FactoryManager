@@ -2,13 +2,11 @@
 const API_CONFIG = {
   protocol: "https", // or "https"
   host: "factorymanager-6t60.onrender.com",
-  port: "3000", // "" for default port
   basePath: "", // e.g. "/api" if all routes are prefixed
 };
 
 function getApiBaseUrl() {
-  const port = API_CONFIG.port ? `:${API_CONFIG.port}` : "";
-  return `${API_CONFIG.protocol}://${API_CONFIG.host}${port}${API_CONFIG.basePath}`;
+  return `${API_CONFIG.protocol}://${API_CONFIG.host}${API_CONFIG.basePath}`;
 }
 
 async function apiRequest(path, options = {}) {

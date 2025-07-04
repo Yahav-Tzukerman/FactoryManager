@@ -30,7 +30,16 @@ setupSwagger(app);
 app.use(cors());
 app.use(express.json());
 app.use(morgan("combined", { stream: accessLogStream }));
-app.use(helmet());
+app.use(
+  helmet({
+    contentSecurityPolicy: {
+      directives: {
+        defaultSrc: ["'self'"],
+        connectSrc: ["'self'", "https://jsonplaceholder.typicode.com"],
+      },
+    },
+  })
+);
 app.use(compression());
 
 // Public routes
