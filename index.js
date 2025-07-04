@@ -67,9 +67,7 @@ app.listen(PORT, () => {
     console.log(`app is listening at http://localhost:${PORT}`);
     console.log("Running in DEVELOPMENT mode");
   } else {
-    console.log(
-      `app is listening at https://factorymanager-6t60.onrender.com:${PORT}`
-    );
+    console.log(`app is listening at https://factorymanager-6t60.onrender.com`);
     console.log("Running in PRODUCTION mode");
   }
 });
