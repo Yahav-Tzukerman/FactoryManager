@@ -34,6 +34,7 @@ app.use(helmet());
 app.use(compression());
 
 // Public routes
+app.use(express.static("client"));
 app.get("/", (req, res) => res.send("Welcome to Factory Manager API"));
 app.use("/users", usersRouter);
 

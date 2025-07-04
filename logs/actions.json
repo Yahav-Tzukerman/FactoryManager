@@ -19,6 +19,126 @@
       "maxActions": 10,
       "numOfActions": 9,
       "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T16:07:34.800Z",
+      "userId": "6867f84e026a77b3eee9e337",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 10,
+      "numOfActions": 10,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T16:07:40.677Z",
+      "userId": "6867f84e026a77b3eee9e337",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 10,
+      "numOfActions": 9,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T16:07:46.184Z",
+      "userId": "6867f84e026a77b3eee9e337",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 10,
+      "numOfActions": 8,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T16:08:29.019Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 874,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T16:08:29.049Z",
+      "userId": "685ad020bafbc4c083ad296b",
+      "action": "/employees",
+      "method": "GET",
+      "success": true,
+      "maxActions": 1000,
+      "numOfActions": 873,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T16:09:06.679Z",
+      "userId": "6867f84e026a77b3eee9e337",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 10,
+      "numOfActions": 7,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T16:09:43.652Z",
+      "userId": "6867f84e026a77b3eee9e337",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 10,
+      "numOfActions": 6,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T16:09:44.792Z",
+      "userId": "6867f84e026a77b3eee9e337",
+      "action": "/employees",
+      "method": "GET",
+      "success": true,
+      "maxActions": 10,
+      "numOfActions": 5,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T16:09:58.426Z",
+      "userId": "6867f84e026a77b3eee9e337",
+      "action": "/departments",
+      "method": "GET",
+      "success": true,
+      "maxActions": 10,
+      "numOfActions": 4,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T16:10:02.262Z",
+      "userId": "6867f84e026a77b3eee9e337",
+      "action": "/shifts",
+      "method": "GET",
+      "success": true,
+      "maxActions": 10,
+      "numOfActions": 2,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T16:10:02.274Z",
+      "userId": "6867f84e026a77b3eee9e337",
+      "action": "/employees",
+      "method": "GET",
+      "success": true,
+      "maxActions": 10,
+      "numOfActions": 2,
+      "date": "04/07/2025"
+    },
+    {
+      "timestamp": "2025-07-04T16:10:12.773Z",
+      "userId": "6867f84e026a77b3eee9e337",
+      "action": "/departments",
+      "method": "GET",
+      "success": false,
+      "maxActions": 10,
+      "numOfActions": 0,
+      "date": "04/07/2025"
     }
   ]
 }
