@@ -1,7 +1,7 @@
 // ----- Configurable Environment -----
 const API_CONFIG = {
-  protocol: "http", // or "https"
-  host: "localhost",
+  protocol: "https", // or "https"
+  host: "factorymanager-6t60.onrender.com",
   port: "3000", // "" for default port
   basePath: "", // e.g. "/api" if all routes are prefixed
 };
